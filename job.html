@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOB APPLICATION</title>
+    <center>
+        <h1>JOB APPLICATION</h1>
+    </center>
+</head>
+<body>
+    <fieldset>
+        <legend><h2>Personal Details</h2></legend>
+        <form>
+            <label for="fullname">Full Name:&nbsp;&nbsp;</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required><br><br>
+            <label for="email">Email Address:&nbsp;&nbsp;</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required><br><br>
+            <label for="phone">Phone Number:&nbsp;&nbsp;</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required><br><br>
+            <label for="position">Position Applied For:</label>
+            <input type="text" id="position" name="position" placeholder="Enter the position you are applying for" required><br><br>
+            </form>
+            </fieldset>
+            <fieldset>
+                <legend><h2>Job Details</h2></legend>
+                <form>
+                    <label for="experience">Years of Experience:&nbsp;&nbsp;</label>
+                    <input type="number" id="experience" name="experience" min="2" placeholder="Enter your years of experience" required><br><br>
+                    <label for="skills">Key Skills:</label><br><br>
+                    <textarea id="skills" name="skills" rows="4" cols="40" placeholder="List your key skills here..." required></textarea><br><br>
+                    <label for="salary">Expected Salary:&nbsp;&nbsp;</label>
+                    <select name="radio">
+                        <option value="option1">$30,000 - $50,000</option>
+                        <option value="option2">$50,001 - $70,000</option>
+                        <option value="option3">$70,001 - $90,000</option>
+                        <option value="option4">$90,001 and above</option>
+                    </select>
+                    <br><br>
+                      <form>
+                    <label for="resume">Upload Resume:&nbsp;&nbsp;</label><br>
+                    <input type="file" id="resume" name="resume" required>
+                    <br><br>
+                    <button type="submit">Submit</button>
+</form>
+
+            </fieldset>
+</body>
+</html>
